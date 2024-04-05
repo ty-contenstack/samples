@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    margin: 0;
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-title {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.post-content {
+    line-height: 1.5;
+}
+
+.post-content a {
+    display: inline-block;
+    color: #0073b1;
+    font-weight:bold;
+}
+
+.post-content a:hover {
+    background-color: #005682;
+}
